@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css' rel='stylesheet'>
+    <title>Semarak Kemerdekaan RI ke-80</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">HUT RI<span> 80</span></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#Beranda">Beranda</a></li>
+        <li><a href="#Tokoh">Tokoh</a></li>
+        <li><a href="#Sejarah">Sejarah</a></li>
+        <li><a href="#Tentang Lomba">Tentang Lomba</a></li>
+      
+      </ul>
+      <div class="nav__btns">
+        <form action="#Pendaftaran">
+          <button class="Login-btn" onclick="Daftar(event)"><p>Pendaftaran</p></button>
+        </form>
+      </div>
+    </nav>
+
+    <header id="Beranda">
+      <div class="header__image">
+        <img src="logo HUT RI 80 (1).png" alt="header" />
+      </div>
+      <div class="header__content">
+        <h1>Dirgahayu Indonesia!<span> BERSATU</span> Untuk Indonesia Maju</h1>
+        
+          <p class="section__description"><b>Dirgahayu Republik Indonesia ke-80!</b> "Bangsa yang besar adalah bangsa yang menghargai jasa para pahlawannya.” <i>- Ir. Soekarno.</i> 
+            Mari lanjutkan perjuangan mereka dengan berkarya nyata. </p>
+        <div class="header__btn">
+          <button class="btn" onclick="ucapanmerdeka()">MERDEKA!</button>
+        </div>
+        <ul class="socials">
+          <li>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></i></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="section__container popular__container" id="Tokoh">
+      <h2 class="section__header">3 Tokoh Kemerdekaan</h2>
+      <div class="popular__grid">
+        <div class="popular__card">
+          <img src="soekarno.jpg" alt="soekarno" />
+          <div class="popular__card__content">
+            <h4>Ir. Soekarno</h4>
+            <h5>Presiden pertama RI</h5>
+          </div>
+        </div>
+        <div class="popular__card">
+          <img src="mohammad-hatta-.jpeg" alt="moh hatta" />
+          <div class="popular__card__content">
+            <h4>Drs. Mohammad Hatta</h4>
+            <h5>Wakil Presiden pertama RI</h5>
+          </div>
+        </div>
+        <div class="popular__card">
+          <img src="ahmad soebardjo.jpg" alt="soebardjo" />
+          <div class="popular__card__content">
+            <h4>Ahmad Soebardjo</h4>
+            <h5>Perumus Teks Proklamasi</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container discover__container" id="Sejarah">
+      <h2 class="section__header">Kisah Perjuangan Bangsa!</h2>
+      <p class="section__description">
+       Temukan kisah-kisah luar biasa dari para pahlawan yang telah memperjuangkan kemerdekaan bangsa ini.
+Perjalanan panjang penuh semangat, pengorbanan, dan tekad yang mengantarkan Indonesia menjadi negara merdeka.
+      </p>
+      <div class="discover__grid">
+        <div class="discover__card">
+          <img src="masa penjajahan.jpeg" alt="discover" />
+          <div class="discover__card__content">
+            <h4>Masa Penjajahan dan Munculnya Pergerakan Nasional</h4>
+            <p class="section__description">
+             Selama lebih dari tiga abad, Indonesia mengalami penjajahan oleh Belanda dan kemudian oleh Jepang.
+              Penindasan yang berkepanjangan membangkitkan kesadaran nasional dan melahirkan berbagai organisasi
+               pergerakan seperti Budi Utomo, Sarekat Islam, dan Partai Nasional Indonesia. Saat Jepang menduduki 
+               Indonesia pada masa Perang Dunia II, mereka memberi ruang kepada tokoh-tokoh Indonesia untuk mempersiapkan
+                kemerdekaan melalui pembentukan BPUPKI dan PPKI.
+            </p>
+           
+          </div>
+        </div>
+        <div class="discover__card">
+          <img src="peristiwa rengasdengklok.jpg" alt="discover" />
+          <div class="discover__card__content">
+            <h4> Peristiwa Rengasdengklok dan Persiapan Proklamasi</h4>
+            <p class="section__description">
+             Setelah Jepang menyerah kepada Sekutu pada 15 Agustus 1945 akibat bom atom di Hiroshima dan Nagasaki, para pemuda mendesak 
+             agar kemerdekaan segera diproklamasikan. Terjadilah Peristiwa Rengasdengklok pada 16 Agustus, di mana Ir. Soekarno dan Drs.
+              Mohammad Hatta dibawa oleh para pemuda agar segera menyatakan kemerdekaan tanpa campur tangan Jepang. Setelah kembali ke 
+              Jakarta dan melakukan perundingan, naskah proklamasi disusun.
+            </p>
+          </div>
+        </div>
+        <div class="discover__card">
+          <img src="proklamasi kemerdekaan.jpg" alt="discover" />
+          <div class="discover__card__content">
+            <h4>Proklamasi Kemerdekaan 17 Agustus 1945</h4>
+            <p class="section__description">
+           Pada tanggal 17 Agustus 1945, Ir. Soekarno dan Drs. Mohammad Hatta membacakan Teks Proklamasi Kemerdekaan di Jalan Pegangsaan 
+           Timur No. 56, Jakarta. Teks tersebut disusun malam sebelumnya, diketik oleh Sayuti Melik, dan diiringi pengibaran bendera Merah
+            Putih hasil jahitan Fatmawati. Meski sederhana, momen ini menjadi tonggak berdirinya negara Indonesia. Setelah proklamasi,
+             perjuangan masih berlanjut hingga akhirnya Belanda mengakui kedaulatan Indonesia pada tahun 1949.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner" id="Tentang Lomba">
+      <div class="banner__image"></div>
+      <div class="banner__content">
+        <h2 class="section__header">
+          Rayakan Kemerdekaan dengan Kegembiraan & Kompetisi!
+        </h2>
+        <p class="section__description">
+        Ikuti keseruan lomba-lomba 17 Agustus dan rasakan semangat kemerdekaan!
+        Dari tarik tambang, balap karung, hingga makan kerupuk semua hadir untuk mempererat 
+        kebersamaan dan menyemarakkan Hari Kemerdekaan Indonesia.
+        </p>
+        <div class="banner__flex">
+          <div class="banner__card">
+            <img src="tarik tambang.webp" alt="banner" />
+            <h4>Tarik Tambang</h4>
+          </div>
+          <div class="banner__card">
+            <img src="balap karung.webp" alt="banner" />
+            <h4>Balap Karung</h4>
+          </div>
+          <div class="banner__card">
+            <img src="makan kerupuk.webp" alt="banner" />
+            <h4>Makan Kerupuk</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="contact-container" id="Pendaftaran">
+       <h2 class="section__header"><span>Pendaftaran</span> Lomba</h2>
+    <div class="contact-info">
+      <div class="info-box">
+        <h3><span class="icon">📞</span>Nomor Telepon</h3>
+        <p>+62 123-456-789</p>
+        <p>+62 987-654-321</p>
+      </div>
+      <div class="info-box">
+        <h3><span class="icon">📧</span> Alamat Email</h3>
+        <p>Kitliyaa@gmail.com</p>
+        <p>delapanapril@gmail.com</p>
+      </div>
+      <div class="info-box">
+        <h3><span class="icon">📍</span>Alamat</h3>
+        <p>Kec.Purwosari, Kab.Pasuruan Jawa Timur</p>
+      </div>
+    </div>
+
+    <div class="form-map">
+      <form class="contact-form" id="form">
+        <input type="text" id="name" placeholder="Nama"/>
+        <input type="text" id="email" placeholder="Email"/>
+        <input type="number" id="number" placeholder="Nomor" />
+        <textarea placeholder="Tulis Lomba yang ingin diikuti!"></textarea>
+        <button type="submit">Kirim</button>
+
+      </form>
+
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63252.90704765267!2d112.68089986037508!3d-7.757261470831972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7d3fb7e896a1b%3A0x4027a76e3531990!2sKec.%20Purwosari%2C%20Pasuruan%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1753927944734!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <a href="#" class="logo">HUT RI<span> 80</span></a>
+        </div>
+        <div class="footer__col">
+          <ul class="footer__links">
+            <li><a href="#Beranda">Beranda</a></li>
+            <li><a href="#Tokoh">Tokoh</a></li>
+            <li><a href="#Sejarah">Sejarah</a></li>
+            <li><a href="#Tentang Lomba">Tentang Lomba</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <ul class="socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-tiktok"></i></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-whatsapp"></i></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        "Merdeka itu bebas berekspresi, berani bermimpi, dan terus berkarya untuk negeri!" 
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="style.js"></script>
+  </body>
+</html> 
